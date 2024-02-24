@@ -152,8 +152,7 @@ const Contact =()=>{
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs
-      .sendForm('service_vrfgiaq', 'template_ddgqim9', e.target, {
+    emailjs.sendForm('service_vrfgiaq', 'template_ddgqim9', e.target, {
         publicKey: 'din9nuWmzbMZBWxME',
       })
       .then(
@@ -178,7 +177,7 @@ const Contact =()=>{
                 <h4>Message</h4>
                 <textarea className='textarea' placeholder='Message' name='message' required='true'></textarea>
                 <br/>
-                <button className="send" type='button'>Send</button>  
+                <button className="send" type='submit'>Send</button>  
             </form>           
             </Zoom>
          </div>
