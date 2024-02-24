@@ -10,7 +10,7 @@ import profileImage from './profileImage.jpg';
 import { Zoom } from "react-awesome-reveal";
 import emailjs from '@emailjs/browser'
 
-const file = "http://localhost:3000/Sanyam-Panchal-WebDeveloper.pdf"
+const file = "https://sanyam-web-developer-portfolio.netlify.app/Sanyam-Panchal-WebDeveloper.pdf"
 
 function App() {
 
