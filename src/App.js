@@ -10,14 +10,14 @@ import profileImage from './profileImage.jpg';
 import { Zoom } from "react-awesome-reveal";
 import emailjs from '@emailjs/browser'
 
-const file = "https://sanyam-web-developer-portfolio.netlify.app/Sanyam-Panchal-WebDeveloper.pdf"
+const file = "https://sanyam-web-developer-portfolio.netlify.app/Sanyam_Web_Developer_3.pdf"
 
 function App() {
 
   const downloadFile =(url)=>{
     const aTag = document.createElement('a')
     aTag.href = url
-    aTag.setAttribute('download', "Sanyam-Panchal-WebDeveloper.pdf")
+    aTag.setAttribute('download', "Sanyam_Web_Developer_3.pdf")
     document.body.appendChild(aTag)
     aTag.click()
     aTag.remove()
